@@ -30,7 +30,7 @@ function CustomNavbar() {
           <Col>
             {/* Segunda lista com a classe "second-list" */}
             <ul className={`${styles.navbar} ${styles['second-list']}`}>
-              <li><a href='https://github.com/' className={styles['navbar-link2']}><FaGithub size={17} /></a></li>
+              <li><a href='https://github.com/EmanoelAngelo?tab=repositories' className={styles['navbar-link2']}><FaGithub size={17} /></a></li>
               <li><a href='https://www.linkedin.com/in/emanoelangelo/' className={styles['navbar-link2']}><FaLinkedin size={19} /></a></li>
             </ul>
           </Col>
