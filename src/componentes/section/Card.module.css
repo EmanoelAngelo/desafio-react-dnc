@@ -1,0 +1,46 @@
+.card{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 25px;
+
+   
+
+
+}
+
+.card img{
+    
+    width: 400px;
+
+}
+
+
+.card section{
+    background-image: url(img.background.svg);
+    background-size: auto 100%; /* Ajusta a altura para 97% */
+    
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    border-radius: 20px; /* Bordas arredondadas */
+    width: 500px;
+  
+    padding: 20px; /* Adiciona padding para espaço interno */
+    box-sizing: border-box; /* Inclui padding e bordas no tamanho total do elemento */
+    background-clip: border-box;
+    
+ 
+   
+}
+
+.card h3{
+     font-size: 25px;
+     margin-left: 130px;
+     margin-top: 15px;
+     margin-bottom: 35px;
+     
+}
+
+.wid-text{
+    width: 200%;
+}

@@ -1,0 +1,43 @@
+
+.first-list {
+
+    display: flex;
+    justify-content: center;
+
+
+    list-style: none;
+    align-items: center;
+
+
+
+}
+  
+
+  .second-list {
+   
+    display: flex;
+    justify-content: center;
+  
+
+    list-style: none;
+    align-items: center;
+
+ 
+}
+
+.navbar a{
+    color: rgba(255, 255, 255, 1);
+}
+.navbar-link1{
+    margin-left: 60px;
+}
+
+.navbar-link2{
+    margin-left: 10px;
+}
+
+.navbar{
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}

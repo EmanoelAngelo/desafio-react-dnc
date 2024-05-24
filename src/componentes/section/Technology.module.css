@@ -1,0 +1,38 @@
+.technology{
+    text-align: left;
+    margin-left: 3%;
+    margin-top: 10%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+   
+
+   
+ 
+ 
+ }
+ 
+ 
+ .technology h1{
+     font-size: 45px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 600;
+     font-style: normal;
+     color: rgba(255, 255, 255, 1);
+ }
+ 
+ .technology h4{
+     font-size: 25px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 600;
+     font-style: normal;
+     color: rgba(255, 255, 255, 1);
+ }
+
+ .technology h5{
+    color: rgba(188, 188, 188, 1);
+    margin-left: 50px;
+    margin-top: 30px;
+    line-height: 30px;
+
+ }

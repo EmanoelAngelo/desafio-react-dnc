@@ -1,0 +1,82 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+  
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #ffffff; /* Cor do texto */
+    
+
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.contact, .email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact h1, .email h1 {
+    font-size: 23px;
+    margin: 0;
+}
+
+.contact p {
+    font-size: 23px;
+    margin: 5px 0 0 0;
+}
+
+.email p {
+    font-size: 20px;
+    margin: 5px 0 0 0;
+}
+
+.socialLinks {
+    list-style: none;
+    display: flex;
+}
+
+.socialLinks li {
+    margin: 0 10px; /* Espaçamento padrão entre ícones */
+}
+
+.socialLinks a {
+    color: #ffffff;
+}
+
+
+.contact {
+    margin-left: 80px; 
+    
+}
+
+.email {
+    margin-left: -400px; 
+}
+
+
+.socialLinks {
+    list-style: none;
+    display: flex;
+}
+
+.socialLinks li {
+    margin-left: 10px; 
+}
+
+
+
+
+.github {
+    margin-left: -300px; 
+    
+}
+
+.linkedin {
+    margin-left: -180px; 
+}
+.figma {
+    margin-left: -60px; }
