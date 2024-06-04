@@ -15,7 +15,7 @@ function Footer() {
                 <p>emanumacapa@gmail.com</p>
             </div>
             <ul className={styles.socialLinks}>
-            <li ><a href='https://www.linkedin.com/in/emanoelangelo/'><FaGithub size={45} className={styles.github}/></a></li>
+            <li ><a href='https://github.com/EmanoelAngelo?tab=repositories'><FaGithub size={45} className={styles.github}/></a></li>
 
                 <li><a href='https://www.linkedin.com/in/emanoelangelo/'><FaLinkedin size={50} className={styles.linkedin}/></a></li>
                 <li ><a href='https://www.figma.com'><FaFigma size={45} className={styles.figma}/></a></li>
