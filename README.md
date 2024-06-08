@@ -3,7 +3,7 @@
 Acesse a versão aqui: https://desafio-react-dnc.vercel.app/
 
 # Linguagens utilizadas:
- - Nesta versão assim como na original foi tuilizado Jss,Css,Html,React,Tsx
+ - Nesta versão assim como na original foi tuilizado Jss, Css, Html, React,Tsx
 
 # Descrição:
 - Troca por e-mail profissional: Foi adiciona um novo e-mail, criei uma conta no gmail exlusiva para receber minhas demandas de desenvolvedor.
