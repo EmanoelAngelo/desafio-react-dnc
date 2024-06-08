@@ -14,6 +14,4 @@ Acesse a versão aqui: https://desafio-react-dnc.vercel.app/
 
 # Histórico
 
-
-
-
+![image](https://github.com/EmanoelAngelo/desafio-react-dnc/assets/155268752/5d263db1-71be-4354-8586-f652d49aad0f)
