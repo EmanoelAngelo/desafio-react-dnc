@@ -7,6 +7,7 @@ Acesse a versão aqui: https://desafio-react-dnc.vercel.app/
 
 # Descrição:
 - Troca por e-mail profissional: Foi adiciona um novo e-mail, criei uma conta no gmail exlusiva para receber minhas demandas de desenvolvedor.
+
  ![image](https://github.com/EmanoelAngelo/desafio-react-dnc/assets/155268752/93acc719-4750-4cc2-902c-d6f8e4b3447b)
 
 
