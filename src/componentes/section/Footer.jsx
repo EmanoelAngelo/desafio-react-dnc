@@ -12,7 +12,7 @@ function Footer() {
             </div>
             <div className={styles.email}>
                 <h1>Email:</h1>
-                <p>emanumacapa@gmail.com</p>
+                <p>fullstack.emanuel@gmail.com</p>
             </div>
             <ul className={styles.socialLinks}>
             <li ><a href='https://github.com/EmanoelAngelo?tab=repositories'><FaGithub size={45} className={styles.github}/></a></li>
