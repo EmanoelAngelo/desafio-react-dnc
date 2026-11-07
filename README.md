@@ -1,8 +1,8 @@
 # Portfólio pessoal em React — Desafio DNC
 
-Portfólio desenvolvido por **Emanoel Angelo** durante a formação em desenvolvimento web da Escola DNC. O projeto reúne apresentação pessoal, trabalhos realizados, trajetória acadêmica e profissional e informações de contato em uma página construída com React.
+Desenvolvi este portfólio durante minha formação em desenvolvimento web na Escola DNC. Nele, reuni minha apresentação pessoal, os trabalhos que realizei, minha trajetória acadêmica e profissional e meus contatos em uma página construída com React.
 
-A proposta foi aplicar os fundamentos de desenvolvimento de interfaces em uma apresentação própria: organizar o conteúdo em componentes, reutilizar elementos visuais e acrescentar interações com JavaScript. A identidade utiliza um cenário espacial, cards escuros e botões em gradiente.
+Meu objetivo foi aplicar os fundamentos de desenvolvimento de interfaces em uma apresentação própria. Organizei o conteúdo em componentes, reutilizei elementos visuais e acrescentei interações com JavaScript. Para a identidade visual, escolhi um cenário espacial, cards escuros e botões em gradiente.
 
 **[Acessar a demonstração](https://desafio-react-dnc.vercel.app/)** · **[Conhecer os componentes](src/componentes/section)** · **[Consultar a primeira versão](https://github.com/EmanoelAngelo/desafio-react-dnc/tree/version-1)**
 
@@ -12,9 +12,9 @@ A proposta foi aplicar os fundamentos de desenvolvimento de interfaces em uma ap
 
 ![Visão geral do portfólio com fundo espacial, apresentação, cards de projetos e trajetória](https://github.com/EmanoelAngelo/desafio-react-dnc/assets/155268752/5e1c7254-c405-4d6f-bc5b-9fef0516aaef)
 
-A visão geral mostra como o conteúdo foi distribuído ao longo da página: primeiro a apresentação, depois os projetos e, na sequência, a trajetória e os contatos. O fundo espacial conecta visualmente essas seções, enquanto os cards destacam cada trabalho.
+Nesta visão geral, mostro como distribuí o conteúdo ao longo da página: primeiro minha apresentação, depois os projetos e, na sequência, minha trajetória e meus contatos. Utilizei o fundo espacial para conectar visualmente essas seções e os cards para destacar cada trabalho.
 
-O visitante pode conhecer os projetos, abrir suas demonstrações e acessar os perfis profissionais pelos links disponíveis na interface.
+Organizei os links para que você possa conhecer meus projetos, abrir suas demonstrações e acessar meus perfis profissionais.
 
 ## Apresentação e projetos
 
@@ -22,13 +22,13 @@ O visitante pode conhecer os projetos, abrir suas demonstrações e acessar os p
 
 ### Apresentação com efeito de digitação
 
-A abertura combina uma introdução pessoal com uma frase animada. O texto alterna entre o nome do autor e as expressões “Desenvolvedor Front End” e “Product Manager”, digitando e apagando os caracteres em sequência.
+Na abertura, combinei minha apresentação com uma frase animada. Fiz o texto alternar entre meu nome e as expressões “Desenvolvedor Front End” e “Product Manager”, digitando e apagando os caracteres em sequência.
 
-Essa interação foi implementada no componente `Technology` com os hooks `useState` e `useEffect`. O botão “Saber mais!” direciona ao perfil do GitHub. A navegação superior inclui atalhos para as seções de projetos e trajetória, além dos links para GitHub e LinkedIn.
+Implementei essa interação no componente `Technology` com os hooks `useState` e `useEffect`. Incluí o botão “Saber mais!” para levar ao meu perfil do GitHub. Na navegação superior, acrescentei atalhos para as seções de projetos e trajetória, além dos links para meu GitHub e LinkedIn.
 
 ### Galeria de trabalhos
 
-A seção de projetos apresenta quatro cards com imagem, título, descrição e botão de acesso. Cada card utiliza o mesmo componente React, recebendo seu conteúdo por propriedades.
+Na seção de projetos, reuni quatro cards com imagem, título, descrição e botão de acesso. Criei um componente React reutilizável para os cards e passei o conteúdo de cada trabalho por propriedades.
 
 | Trabalho apresentado | Conteúdo descrito na galeria |
 | --- | --- |
@@ -37,23 +37,23 @@ A seção de projetos apresenta quatro cards com imagem, título, descrição e 
 | Consulta de endereço e clima | Interface de consulta com consumo de APIs. |
 | Portfólio em React | Apresentação de um trabalho de portfólio desenvolvido com React. |
 
-Os botões dos cards apontam para as versões publicadas dos trabalhos. A galeria funciona como uma seleção de projetos: o visitante encontra um resumo e pode abrir cada aplicação para explorá-la.
+Direcionei os botões dos cards para as versões publicadas dos trabalhos. Com essa galeria, apresento um resumo de cada projeto e ofereço um caminho para você abrir e explorar cada aplicação.
 
 ## Trajetória e contato
 
 ![Seção Sobre mim com linha do tempo de 2017 a 2024 e rodapé de contato](https://github.com/EmanoelAngelo/desafio-react-dnc/assets/155268752/23859548-1bac-453c-b6ec-ede0f706b58f)
 
-A seção “Sobre mim” organiza a trajetória em uma linha do tempo com os marcos de **2017, 2021, 2022 e 2024**. Os textos relacionam experiências em engenharia, tecnologia da informação, design e desenvolvimento web.
+Na seção “Sobre mim”, organizei minha trajetória em uma linha do tempo com os marcos de **2017, 2021, 2022 e 2024**. Nos textos, relacionei minhas experiências em engenharia, tecnologia da informação, design e desenvolvimento web.
 
-Essa organização acrescenta contexto aos projetos: além de visualizar as interfaces, o visitante pode conhecer o percurso que levou ao seu desenvolvimento. A implementação utiliza componentes de layout do React Bootstrap e estilos em CSS Modules.
+Escolhi essa organização para dar contexto aos meus projetos e mostrar o percurso que me levou ao desenvolvimento web. Para construir a seção, utilizei componentes de layout do React Bootstrap e estilos em CSS Modules.
 
-No rodapé, telefone, e-mail e links externos concentram os caminhos de contato.
+No rodapé, concentrei meu telefone, meu e-mail e os links externos para facilitar o contato.
 
 ### Detalhe do e-mail
 
 ![Detalhe do endereço de e-mail exibido no rodapé do portfólio](https://github.com/EmanoelAngelo/desafio-react-dnc/assets/155268752/93acc719-4750-4cc2-902c-d6f8e4b3447b)
 
-A captura destaca a atualização do endereço de e-mail utilizado para contato profissional na versão apresentada. Trata-se de uma informação exibida no rodapé, não de um formulário de envio de mensagens.
+Nesta captura, destaco o endereço de e-mail que atualizei para receber contatos profissionais na versão apresentada. Incluí essa informação no rodapé para que você possa entrar em contato comigo por e-mail.
 
 ## Tecnologias utilizadas
 
@@ -71,7 +71,7 @@ A captura destaca a atualização do endereço de e-mail utilizado para contato 
 
 ## Organização dos componentes
 
-O arquivo [`src/App.jsx`](src/App.jsx) reúne as seções principais na ordem de exibição:
+No arquivo [`src/App.jsx`](src/App.jsx), reuni as seções principais na ordem em que aparecem na página:
 
 | Componente | Responsabilidade |
 | --- | --- |
@@ -81,22 +81,22 @@ O arquivo [`src/App.jsx`](src/App.jsx) reúne as seções principais na ordem de
 | `About` | Trajetória acadêmica e profissional em linha do tempo. |
 | `Footer` | Contatos e links externos. |
 
-Os componentes `Card`, `ButtonA` e `ButtonB` permitem reutilizar a estrutura dos cards e botões. Imagens, estilos e componentes estão organizados em [`src/componentes/section`](src/componentes/section).
+Criei os componentes `Card`, `ButtonA` e `ButtonB` para reutilizar a estrutura dos cards e botões. Organizei as imagens, os estilos e os componentes em [`src/componentes/section`](src/componentes/section).
 
-## Aprendizados aplicados
+## O que aprendi e apliquei
 
-- Divisão de uma página em componentes com responsabilidades específicas.
-- Passagem de propriedades para reutilizar cards e botões.
-- Uso de estado e efeitos para controlar uma animação de texto.
-- Combinação de CSS Modules com componentes de layout.
-- Organização de uma galeria com links para demonstrações.
-- Preservação de versões e acompanhamento das publicações.
+- Dividi a página em componentes com responsabilidades específicas.
+- Utilizei propriedades para reutilizar cards e botões.
+- Trabalhei com estado e efeitos para controlar a animação de texto.
+- Combinei CSS Modules com componentes de layout.
+- Organizei uma galeria com links para as demonstrações dos meus trabalhos.
+- Preservei versões e acompanhei as publicações do projeto.
 
 ## Evolução visual e histórico
 
-A atualização documentada neste README alterou o plano de fundo para a composição espacial e atualizou o e-mail de contato. A proposta da página e a organização principal das seções foram mantidas.
+Na atualização visual apresentada neste README, substituí o plano de fundo pela composição espacial e atualizei meu e-mail de contato. Mantive a proposta da página e a organização principal das seções.
 
-A branch [`version-1`](https://github.com/EmanoelAngelo/desafio-react-dnc/tree/version-1) preserva uma versão anterior, permitindo consultar a evolução da apresentação.
+Preservei uma versão anterior na branch [`version-1`](https://github.com/EmanoelAngelo/desafio-react-dnc/tree/version-1), para que seja possível comparar a evolução da apresentação.
 
 <details>
 <summary><strong>Ver as capturas existentes de versionamento e publicações</strong></summary>
@@ -105,19 +105,19 @@ A branch [`version-1`](https://github.com/EmanoelAngelo/desafio-react-dnc/tree/v
 
 ![Seletor de branches do GitHub mostrando main e version-1](https://github.com/EmanoelAngelo/desafio-react-dnc/assets/155268752/7c7e5927-7c85-4eb1-9739-b27eb03eb12b)
 
-A imagem mostra o seletor de branches do repositório, com `main` e `version-1`. Esse registro indica onde consultar a versão preservada para comparação com a apresentação atual.
+Nesta imagem, mostro onde encontrar as branches `main` e `version-1` no repositório. Deixei a versão anterior disponível para que você possa compará-la com a apresentação atual.
 
 ### Registro de publicações
 
 ![Histórico de publicações na Vercel associado às alterações do projeto](https://github.com/EmanoelAngelo/desafio-react-dnc/assets/155268752/5d263db1-71be-4354-8586-f652d49aad0f)
 
-A captura registra publicações associadas a alterações no projeto, incluindo ajustes no fundo, no contato e na documentação. Ela documenta o histórico daquele período, sem representar uma verificação da disponibilidade atual de cada publicação.
+Nesta captura, registrei as publicações associadas aos ajustes que fiz no fundo, no contato e na documentação. Mantive a imagem como parte do histórico de desenvolvimento daquele período; ela não representa uma verificação da disponibilidade atual de cada publicação.
 
 </details>
 
 ## Como executar localmente
 
-Com Node.js e npm instalados:
+Para você executar meu projeto localmente, tenha Node.js e npm instalados e utilize os comandos abaixo:
 
 ```bash
 git clone https://github.com/EmanoelAngelo/desafio-react-dnc.git
@@ -138,6 +138,6 @@ Outros comandos disponíveis no projeto:
 
 ## Autor
 
-**Emanoel Angelo** — projeto desenvolvido no contexto da formação na Escola DNC.
+Sou **Emanoel Angelo** e desenvolvi este projeto durante minha formação na Escola DNC.
 
 [GitHub](https://github.com/EmanoelAngelo) · [LinkedIn](https://www.linkedin.com/in/emanoelangelo/)
